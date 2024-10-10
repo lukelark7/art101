@@ -1,11 +1,17 @@
 /* this css file will only style the homepage of our site */
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+.hiprince.gif {
+  margin: 30px;
+  max-height: 400px;
+  max-width: 700px;
 }
 
 .center {
   text-align: center;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
