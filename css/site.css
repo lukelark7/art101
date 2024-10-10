@@ -34,3 +34,9 @@ h1 {
   border: solid 1px #888;
   background-color: #A3C9A8;
 }
+
+ul.no_bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
