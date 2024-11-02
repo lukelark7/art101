@@ -26,7 +26,7 @@ function yourNamePlease () {
   return nameAnotherFriend;
 }
 
-//Outpout
+//Output
 document.write("Here's your name! All I need is the name of your pet and your favorite thing and we should be good to go!: ", 
   yourNamePlease(), "</br>");
 
