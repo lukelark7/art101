@@ -1,0 +1,27 @@
+/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+//Copied from Canvas
+<head>
+    <link rel="stylesheet" type="text/css" href="../css/site.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="js/lab.js" DEFER></script>
+    </link>
+</head>
+
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
+
+  .special {
+    background-color: lightseagreen;
+    border: dashed, 50px, seagreen;
+    color:teal;
+    font-weight: italic;
+    font-family: fantasy;
+  }
