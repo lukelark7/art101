@@ -21,35 +21,44 @@
 
 // Constants (ft. jQuery!)
 
-//Add Button for "Challenges" section
-$("#challenges").append("<button id='button-challenges'>Make Special</button>");
+// //Add Button for "Challenges" section
+// $("#challenges").append("<button id='button-challenges'>Make Special</button>");
 
-//Add Button for "Problems" section
-$("#problems").append("<button id='button-problems'>Make Special</button>");
+// //Add Button for "Problems" section
+// $("#problems").append("<button id='button-problems'>Make Special</button>");
 
-//Add Button for "Reflections" section
-$("#reflections").append("<button id='button-reflections'>Make Special</button>");
+// //Add Button for "Reflections" section
+// $("#reflections").append("<button id='button-reflections'>Make Special</button>");
 
-//Add a Click Listener to the Challenges Button
+// //Add a Click Listener to the Challenges Button
 
-$("#button-challenges").click(function(){
-  // now add (or subtract) the "special" class to the section
-  $("#challenges").toggleClass("special");
+// $("#button-challenges").click(function(){
+//   // now add (or subtract) the "special" class to the section
+//   $("#challenges").toggleClass("special");
+// });
+
+// //Add a Click Listener to the Problems Button
+
+// $("#button-problems").click(function(){
+//   // now add (or subtract) the "special" class to the section
+//   $("#problems").toggleClass("special");
+// });
+
+// //Add a Click Listener to the Reflections Button
+
+// $("#button-reflections").click(function(){
+//   // now add (or subtract) the "special" class to the section
+//   $("#reflections").toggleClass("special");
+// });
+
+// Add a "Make Special" button to each special section
+$(".special-section").append("<button class='special'>Make Special</button>");
+
+// Add a click listener for all "Make Special" buttons
+$(".special").click(function() {
+  $(this).parent().toggleClass("special");
 });
 
-//Add a Click Listener to the Problems Button
-
-$("#button-problems").click(function(){
-  // now add (or subtract) the "special" class to the section
-  $("#problems").toggleClass("special");
-});
-
-//Add a Click Listener to the Reflections Button
-
-$("#button-reflections").click(function(){
-  // now add (or subtract) the "special" class to the section
-  $("#reflections").toggleClass("special");
-});
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
