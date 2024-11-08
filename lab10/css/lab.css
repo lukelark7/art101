@@ -21,3 +21,18 @@
 .center {
   text-align: center;
 }
+
+/* Thank you to ChatGPT for this code. To explain: the nth-child pseudoclass calls on specific elements inside of things, such as lists or divs. These specific nth-children are calling upon the odd and even elements of the p class.*/
+/*Apply different alignment styles for alternating text elements*/
+
+.text:nth-child(odd) {
+  align-self: left; 
+  background-color: lightblue;
+  margin-right: auto;
+}
+
+.text:nth-child(even) {
+  align-self: right;
+  background-color: rgb(255, 255, 188);
+  margin-left: auto;
+}
