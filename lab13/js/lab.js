@@ -33,9 +33,6 @@ function fizzBuzz () {
     else if (i%5 == 0) {
       oneLongString += "Buzz!";
     }
-    else if (i = 7) {
-      oneLongString += "Bang!"
-    }
     else if (i%7 == 0) {
       oneLongString += "Boom!";
     }
