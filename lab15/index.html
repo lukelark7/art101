@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab 13 - Loops</title>
+	<title>Lab 15 - AJAX</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -27,28 +27,39 @@
 	<main id="content">
 	<div class="minor-section">
 <h2>Results</h2>
+<div class = center>
+<img src="./img/leavanny-pokemon.gif" width="470px", height="370px">
+<p>"Want to see what the API <a href= "https://pokeapi.co/">PokeAPI</a> about my favorite Pokemon, Leavanny? Click this button!"</p>
+<button id="button">Leavanny!</button>
+<script>
+	fetch('https://pokeapi.co/api/v2/pokemon/leavanny')
+  .then(response => response.json())
+  .then(data => {
+  });
+  </script>
+</div>
 <div id="output"></div>
 </div>
 		<section>
-			<h1>Lab 13 - Loops<h1>
+			<h1>Lab 15 - AJAX<h1>
 			<div class="minor-section">
 				<div class ="special-section">
 					<h2>Challenge</h2>
-					<p>The main point of this lab was to experiment with loop functions in Javascript.</p>
+					<p>The main point of this lab was to experiment with jQuery and more importantly, AJAX.</p>
 				</div>
 			</div>
 
 			<div class="minor-section">
 				<div class ="special-section">
 					<h2>Problems</h2>
-					<p>Had MAJOR issues with outputting my JSS to my HTML, due to the extremely vague instructions of the lab. Was eventually able to get it via a lot of troubleshooting.</p>
+					<p>Bulk of the problems came from figuring out how to connect the AJAX to our button.</p>
 				</div>
 			</div>
 
 			<div class="minor-section">
 				<div class ="special-section">
 					<h2>Reflection</h2>
-					<p>Overall, this assignment was fun, but probably my least favorite due to the major issues I had. Haven't had that happen in so long!</p>
+					<p>I enjoyed this lab overall! It was fun to puzzle through how to get the API onto the HTML! I wish there was a way to make our output shorter though, but the long output was the same with the original API, so we played it safe and left it like that.</p>
 				</div>
 			</div>
 		</section>
